@@ -1,0 +1,22 @@
+
+spring:
+  application:
+     name: myspringboottodoap
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true    
+    
+    
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+      
+logging:
+  level: 
+    org.springframework.web: INFO
+  
+    
+
